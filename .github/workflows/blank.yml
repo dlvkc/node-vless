@@ -1,11 +1,7 @@
-name: Run web
+name: Run Docker
 
 on:
   workflow_dispatch:
-  
-env:
-  DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-  DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
 
 jobs:
   run_web:
