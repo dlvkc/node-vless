@@ -17,3 +17,4 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         tags: "latest,node"
         platforms: linux/s390x,linux/s390x
+        dockerfile: .
